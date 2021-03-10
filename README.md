@@ -2,7 +2,7 @@
 Tools for backing up CTFd DB (SQL) automatically
 
 ### How it works :
-It's basically just grabbing the SSRF token then submit it with other credentials to export the backup file.
+It's basically just grabbing the SSRF token and submit that with other credentials to export the backup file.
 
 ### Install the libraries :
 ```
