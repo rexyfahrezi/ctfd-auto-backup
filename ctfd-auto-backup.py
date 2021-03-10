@@ -21,8 +21,8 @@ soup = BeautifulSoup(r.content, "html.parser")
 nonce = soup.find("input",{"name":"nonce"})['value']
 
 data = {
-  'name': 'tenesys',
-  'password': '123',
+  'name': 'yourCTFdAdmin',
+  'password': '*****',
   '_submit': 'Submit',
   'nonce': nonce
 }
