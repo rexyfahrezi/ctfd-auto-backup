@@ -28,6 +28,8 @@ data = {
   'nonce': nonce
 }
 
+print('Logging in to '+url+' . .')
+
 s.post(url, data=data, allow_redirects=True)
 cookies = s.cookies.get_dict()
 
