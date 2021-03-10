@@ -10,3 +10,10 @@ pip install BeautifulSoup4
 pip install requests
 pip install wget
 ```
+### Usage :
+```
+1. Change all values that contain url/domain to your CTFd url
+2. python ctfd-auto-backup.py
+3. The files that have been downloaded will be in the backup_dir
+4. You can put this script into a time-based job scheduler such as cron or any automation utilties that can run python in it
+```
