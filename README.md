@@ -1,5 +1,5 @@
 # ctfd-auto-backup
-Tools for backing up CTFd DB (SQL) automatically
+Tools for backing up CTFd DB (SQL) automatically with Python
 
 ### How it works :
 It's basically just grabbing the SSRF token and submit that with other credentials to export the backup file.
